@@ -2,14 +2,14 @@ from keras.layers import Bidirectional, LSTM, Dense,LeakyReLU, Dropout, BatchNor
 from keras.models import Sequential
 from keras.optimizers import Adam
 
-def build_lstm_model(input_shape, num_lstm_units, num_hidden_layers, num_units_hidden_layers, activation_function, dropout_rate):
+def build_lstm_model(input_shape, num_lstm_units, num_hidden_layers, num_units_hidden_layers, dropout_rate):
     model = Sequential()
     model.add(LSTM(num_lstm_units, activation='relu', input_shape=input_shape))
     for i in range(num_hidden_layers):
         model.add(Dense(num_units_hidden_layers))
         model.add(LeakyReLU(alpha=0.1))
         model.add(Dropout(dropout_rate))
-    model.add(Dense(1))
+    model.add(Dense(1)) 
     model.compile(optimizer=Adam(lr=0.001), loss='mse', metrics=['mae'])
     return model
 

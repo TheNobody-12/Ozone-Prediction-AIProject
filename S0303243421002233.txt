@@ -1,0 +1,11 @@
+Zhou Zang, Yushan Guo, Yize Jiang, Chen Zuo, Dan Li, Wenzhong Shi, Xing Yan,
+Tree-based ensemble deep learning model for spatiotemporal surface ozone (O3) prediction and interpretation,
+International Journal of Applied Earth Observation and Geoinformation,
+Volume 103,
+2021,
+102516,
+ISSN 1569-8432,
+https://doi.org/10.1016/j.jag.2021.102516.
+(https://www.sciencedirect.com/science/article/pii/S0303243421002233)
+Abstract: Tree-based machine learning and deep learning approaches are widely applied in ozone (O3) retrieval, but they cannot achieve high accuracy and interpretability simultaneously. To overcome this limitation, a tree-based ensemble deep learning model, named semi-SILDM, was proposed for O3 prediction at both national (5 km) and urban scales (250 m) in China. The ModerateResolutionImagingSpectroradiometer (MODIS) Top of Atmosphere (TOA) measurements were first investigated through significant linear and nonlinear relationships with surface O3. To examine the actual predictive ability of the semi-SIDLM, time-based validation was employed to divide data chronologically by year into training (2018), validation (2017), and test data (2019). The semi-SIDLM predicted O3 in 2019 showed a coefficient of determination (R2) of 0.71 (0.69) and a Root Mean Square Error (RMSE) of 21.88 (26.59) µg/m3 at the national (urban) scale in China. In addition to its high accuracy, the semi-SIDLM has interpretability for retrieval results, which indicates the strong influence of the Fangshan and Tongzhou districts on the principle O3 Beijing urban area; the temporal characteristics reveal the higher contributions of May–July to O3 pollution compared to other months. The proposed model of this study will benefit further studies on O3 monitoring and deepen the understanding of its spatiotemporal characteristics.
+Keywords: Surface O3; Deep learning; MODIS

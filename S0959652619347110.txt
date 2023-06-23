@@ -1,0 +1,11 @@
+Hong-Wei Wang, Xiao-Bing Li, Dongsheng Wang, Juanhao Zhao, Hong-di He, Zhong-Ren Peng,
+Regional prediction of ground-level ozone using a hybrid sequence-to-sequence deep learning approach,
+Journal of Cleaner Production,
+Volume 253,
+2020,
+119841,
+ISSN 0959-6526,
+https://doi.org/10.1016/j.jclepro.2019.119841.
+(https://www.sciencedirect.com/science/article/pii/S0959652619347110)
+Abstract: Ozone is one of the most important greenhouse gases and air pollutants in urban areas, and has significantly negative impacts both on the climate change and human health. In addition to alert the public for health concerns, accurate ozone prediction is also crucial to understand the formation mechanisms of surface ozone episodes, and has significant implications for making emission control strategies of ozone precursors such as methane, carbon monoxide, and volatile organic compounds. However, existing methods of ozone concentration prediction could not effectively capture temporal dependency, and most neglect spatial correlations. In this study, a hybrid sequence to sequence model embedded with the attention mechanism is proposed for predicting regional ground-level ozone concentration. In the proposed model, the inherent spatiotemporal correlations in air quality monitoring network are simultaneously extracted, learned and incorporated, and auxiliary air pollution and meteorological information are adaptively involved. The hourly data collected from 35 air quality monitoring stations and 651 meteorological girds in Beijing, China are used to validate the present model. The results demonstrate that the spatiotemporal correlations in the monitoring network present enormous advantages for the regional ozone prediction. Auxiliary data and time lags matching day-of-week or diurnal periods of ozone are confirmed to benefit the improvement of prediction accuracy. Monitoring stations in urban areas exhibit better prediction performances than stations in remote areas. The addressed model outperforms the baseline models, and is proven to have excellent performance in all monitoring station categories of Beijing and different months with significant disparity of ozone concentrations.
+Keywords: Ozone prediction; Spatiotemporal correlation; Air quality monitoring network; Sequence to sequence model; Deep learning
